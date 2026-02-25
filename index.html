@@ -4,51 +4,58 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Investment Knowledge Club</title>
+  <!-- Bootstrap 5 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 
-  <div class="app-shell mx-auto">
+  <!-- App Shell -->
+  <div class="app-shell">
 
-    <!-- STATUS BAR -->
-    <div class="status-bar d-flex justify-content-between align-items-center px-3">
-      <span class="status-time">9:41</span>
-      <div class="status-icons d-flex gap-2 align-items-center">
-        <i class="bi bi-reception-4"></i>
-        <i class="bi bi-wifi"></i>
-        <i class="bi bi-battery-full"></i>
-      </div>
-    </div>
 
-    <!-- HERO -->
-    <section class="hero-section text-center px-3 pt-3 pb-4">
-      <div class="avatar-wrapper mx-auto mb-2">
-        <img
-          src="images/profile.jpg"
-          alt="Michael"
-          class="avatar-img"
-          onerror="this.src='https://ui-avatars.com/api/?name=Michael&background=c8a951&color=fff&size=80'"
-        />
+    <!-- Hero / Profile Section -->
+    <section class="hero-section px-3 pt-3 pb-4">
+      <div class="d-flex align-items-center gap-3">
+        <!-- Avatar -->
+        <div class="avatar-wrapper">
+          <img
+            src="images/profile.jpg"
+            alt="Michael"
+            class="avatar-img"
+            onerror="this.src='https://ui-avatars.com/api/?name=Michael&background=c8a951&color=fff&size=80'"
+          />
+        </div>
+        <!-- Name and welcome text -->
+        <div class="hero-text">
+          <h2 class="hero-name mb-1">Michael</h2>
+          <p class="hero-subtitle mb-0">
+            You've officially joined<br />
+            your first investment<br />
+            knowledge club!
+          </p>
+        </div>
       </div>
-      <h2 class="hero-name mb-1">Michael</h2>
-      <p class="hero-subtitle mb-0">
-        You've officially joined<br />
-        your first investment<br />
-        knowledge club!
-      </p>
     </section>
 
-    <!-- LEADERBOARD GRID -->
+    <!-- Leaderboard Grid -->
     <section class="leaderboard-section px-3 pb-3">
       <div class="row g-2">
 
-        <div class="col-6">
+        <!-- Member 1 -->
+        <div class="col-6 col-md-3">
           <div class="lb-card d-flex align-items-center gap-2 p-2">
-            <img src="images/benard.jpg" alt="Benard Makodingo" class="lb-avatar"
-              onerror="this.src='https://ui-avatars.com/api/?name=Benard+Makodingo&background=3a3a3a&color=fff&size=40'" />
+            <img
+              src="images/benard.jpg"
+              alt="Benard Makodingo"
+              class="lb-avatar"
+              onerror="this.src='https://ui-avatars.com/api/?name=Benard+Makodingo&background=3a3a3a&color=fff&size=40'"
+            />
             <div>
               <div class="lb-name">Benard<br />Makodingo</div>
               <div class="lb-score">350</div>
@@ -56,10 +63,15 @@
           </div>
         </div>
 
-        <div class="col-6">
+        <!-- Member 2 -->
+        <div class="col-6 col-md-3">
           <div class="lb-card d-flex align-items-center gap-2 p-2">
-            <img src="images/kigsmall.jpg" alt="kigSmall Foot" class="lb-avatar"
-              onerror="this.src='https://ui-avatars.com/api/?name=kig+Small&background=c8a951&color=fff&size=40'" />
+            <img
+              src="images/kigsmall.jpg"
+              alt="kigSmall Foot"
+              class="lb-avatar"
+              onerror="this.src='https://ui-avatars.com/api/?name=kig+Small&background=c8a951&color=fff&size=40'"
+            />
             <div>
               <div class="lb-name">kigSmall<br />Foot</div>
               <div class="lb-score">225</div>
@@ -67,10 +79,15 @@
           </div>
         </div>
 
-        <div class="col-6">
+        <!-- Member 3 -->
+        <div class="col-6 col-md-3">
           <div class="lb-card d-flex align-items-center gap-2 p-2">
-            <img src="images/caroline1.jpg" alt="Caroline Likhol" class="lb-avatar"
-              onerror="this.src='https://ui-avatars.com/api/?name=Caroline+Likhol&background=3a3a3a&color=fff&size=40'" />
+            <img
+              src="images/caroline1.jpg"
+              alt="Caroline Likhol"
+              class="lb-avatar"
+              onerror="this.src='https://ui-avatars.com/api/?name=Caroline+Likhol&background=3a3a3a&color=fff&size=40'"
+            />
             <div>
               <div class="lb-name">Caroline<br />Likhol</div>
               <div class="lb-score">117</div>
@@ -78,10 +95,15 @@
           </div>
         </div>
 
-        <div class="col-6">
+        <!-- Member 4 -->
+        <div class="col-6 col-md-3">
           <div class="lb-card d-flex align-items-center gap-2 p-2">
-            <img src="images/caroline2.jpg" alt="Caroline Likhol" class="lb-avatar"
-              onerror="this.src='https://ui-avatars.com/api/?name=C+Likhol&background=5a5a5a&color=fff&size=40'" />
+            <img
+              src="images/caroline2.jpg"
+              alt="Caroline Likhol"
+              class="lb-avatar"
+              onerror="this.src='https://ui-avatars.com/api/?name=C+Likhol&background=5a5a5a&color=fff&size=40'"
+            />
             <div>
               <div class="lb-name">Caroline<br />Likhol</div>
               <div class="lb-score">321</div>
@@ -92,8 +114,8 @@
       </div>
     </section>
 
-    <!-- RECOMMENDATION SECTION -->
-    <section class="recommendation-section mx-3 mb-3 p-3">
+    <!-- Recommendation & Membership Section -->
+    <section class="recommendation-section mx-3 mx-md-4 mb-3 p-3">
       <h5 class="rec-title mb-1">Now let's make you great!</h5>
       <p class="rec-body mb-3">
         You have shown us where you are doing well and where we can support you to be great!<br />
@@ -101,13 +123,22 @@
         your financial adventure
       </p>
 
-      <!-- FOUNDATION MEMBERSHIP -->
-      <div class="membership-card mb-2" id="foundationCard"
-        role="button" tabindex="0" aria-expanded="false" aria-controls="foundationDesc">
+      <!-- Foundation Membership Card -->
+      <div
+        class="membership-card mb-2"
+        id="foundationCard"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-controls="foundationDesc"
+      >
         <div class="membership-header d-flex justify-content-between align-items-center px-3 py-2">
-          <span class="membership-label"><strong>FOUNDATION</strong> MEMBERSHIP</span>
+          <span class="membership-label">
+            <strong>FOUNDATION</strong> MEMBERSHIP
+          </span>
           <i class="bi bi-chevron-down toggle-icon" id="foundationIcon"></i>
         </div>
+        <!-- Description — toggled on click -->
         <div class="membership-desc collapse" id="foundationDesc">
           <p class="mb-0 px-3 pb-3 pt-1">
             We invest for you, in shares and in the Mansa-X global fund. Service is free online
@@ -116,13 +147,22 @@
         </div>
       </div>
 
-      <!-- ECONOMY MEMBERSHIP -->
-      <div class="membership-card mb-3" id="economyCard"
-        role="button" tabindex="0" aria-expanded="false" aria-controls="economyDesc">
+      <!-- Economy Membership Card -->
+      <div
+        class="membership-card mb-3"
+        id="economyCard"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-controls="economyDesc"
+      >
         <div class="membership-header d-flex justify-content-between align-items-center px-3 py-2">
-          <span class="membership-label"><strong>ECONOMY</strong> MEMBERSHIP</span>
+          <span class="membership-label">
+            <strong>ECONOMY</strong> MEMBERSHIP
+          </span>
           <i class="bi bi-chevron-down toggle-icon" id="economyIcon"></i>
         </div>
+        <!-- Description — toggled on click -->
         <div class="membership-desc collapse" id="economyDesc">
           <p class="mb-0 px-3 pb-3 pt-1">
             We will invest your money for you at a guaranteed rate with the Mansa-X global fund.
@@ -132,18 +172,26 @@
         </div>
       </div>
 
-      <!-- Link placeholder -->
+      <!-- Link to full membership details modal -->
       <div class="more-link-wrapper text-center mb-1">
         <a href="#" class="more-link" data-bs-toggle="modal" data-bs-target="#detailsModal">
-            A closer look at the memberships details is available here
+          A closer look at the memberships details is available here
         </a>
       </div>
-
     </section>
 
-  </div>
+    <!-- Footer -->
+    <footer class="app-footer d-flex justify-content-between align-items-center px-3 py-2">
+      <span class="footer-copy">Fourfront Management © 2025. All Rights Reserved.</span>
+      <a href="https://wa.me/" target="_blank" class="whatsapp-btn" aria-label="WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+    </footer>
 
-  <!-- MODAL -->
+  </div><!-- /app-shell -->
+
+
+  <!-- Membership Details Modal -->
   <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content modal-custom">
@@ -165,16 +213,8 @@
     </div>
   </div>
 
-  <!-- FOOTER -->
-    <footer class="app-footer d-flex justify-content-between align-items-center px-3 py-2">
-      <span class="footer-copy">Fourfront Management © 2025. All Rights Reserved.</span>
-      <a href="https://wa.me/" target="_blank" class="whatsapp-btn" aria-label="WhatsApp">
-        <i class="bi bi-whatsapp"></i>
-      </a>
-    </footer>
 
-  
-<!-- Bootstrap JS -->
+  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Custom JS -->
   <script src="js/app.js"></script>
