@@ -52,3 +52,22 @@ body {
 
 .hero-name { font-size: 1.15rem; font-weight: 800; }
 .hero-subtitle { font-size: 0.82rem; color: var(--text-muted); line-height: 1.55; }
+
+/* Leaderboard */
+.leaderboard-section { background: var(--bg-dark); padding-top: 14px; }
+
+.lb-card {
+  background: #2c2c2c;
+  border-radius: 10px;
+  border: 1px solid #3a3a3a;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.lb-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+
+.lb-avatar {
+  width: 40px; height: 40px;
+  border-radius: 50%; object-fit: cover;
+  border: 2px solid #444; flex-shrink: 0;
+}
+.lb-name { font-size: 0.72rem; color: var(--text-muted); line-height: 1.3; font-weight: 600; }
+.lb-score { font-size: 1.2rem; font-weight: 800; color: var(--text-primary); margin-top: 2px; }
