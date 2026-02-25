@@ -115,3 +115,17 @@ body {
 .divider { border-color: #3a3a3a; margin: 12px 0; }
 .btn-gold { background: var(--gold); color: #1e1e1e; font-weight: 700; border: none; border-radius: 8px; padding: 8px 24px; }
 .btn-gold:hover { background: #d4b96a; color: #1e1e1e; }
+
+/* Footer */
+.app-footer { background: var(--gold); margin-top: auto; }
+.footer-copy { font-size: 0.65rem; color: #1e1e1e; font-weight: 700; }
+
+.whatsapp-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; border-radius: 50%;
+  background: #1e1e1e; color: #25D366;
+  font-size: 1.1rem; text-decoration: none;
+  transition: transform 0.2s, background 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+.whatsapp-btn:hover { background: #25D366; color: #fff; transform: scale(1.1); }
