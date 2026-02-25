@@ -103,3 +103,6 @@ body {
 .more-link-wrapper { background: rgba(200,169,81,0.12); border-radius: 6px; padding: 6px 10px; }
 .more-link { font-size: 0.72rem; color: #d4b96a; text-decoration: none; font-style: italic; }
 .more-link:hover { color: #fff; text-decoration: underline; }
+
+.toggle-icon.rotated { transform: rotate(180deg); }
+.membership-card.active { border-color: var(--gold); }
