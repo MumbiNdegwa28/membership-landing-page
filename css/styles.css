@@ -129,3 +129,17 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 .whatsapp-btn:hover { background: #25D366; color: #fff; transform: scale(1.1); }
+
+/* Responsive */
+@media (min-width: 480px) {
+  body { padding: 32px 16px; align-items: flex-start; }
+  .app-shell { border-radius: 36px; min-height: auto; box-shadow: 0 24px 80px rgba(0,0,0,0.9); }
+  .status-bar { border-radius: 36px 36px 0 0; }
+  .app-footer { border-radius: 0 0 36px 36px; }
+}
+
+@media (max-width: 360px) {
+  .lb-score { font-size: 1rem; }
+  .lb-name { font-size: 0.68rem; }
+  .hero-name { font-size: 1rem; }
+}
