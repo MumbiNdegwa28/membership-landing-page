@@ -106,3 +106,12 @@ body {
 
 .toggle-icon.rotated { transform: rotate(180deg); }
 .membership-card.active { border-color: var(--gold); }
+
+/* Modal */
+.modal-custom { background: #2c2c2c; color: var(--text-primary); border: 1px solid #3a3a3a; border-radius: 12px; }
+.modal-custom .modal-title { color: var(--gold); font-weight: 800; font-size: 1rem; }
+.modal-custom p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.65; }
+.gold-text { color: var(--gold); font-size: 0.82rem; letter-spacing: 0.4px; }
+.divider { border-color: #3a3a3a; margin: 12px 0; }
+.btn-gold { background: var(--gold); color: #1e1e1e; font-weight: 700; border: none; border-radius: 8px; padding: 8px 24px; }
+.btn-gold:hover { background: #d4b96a; color: #1e1e1e; }
