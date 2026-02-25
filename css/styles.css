@@ -71,3 +71,35 @@ body {
 }
 .lb-name { font-size: 0.72rem; color: var(--text-muted); line-height: 1.3; font-weight: 600; }
 .lb-score { font-size: 1.2rem; font-weight: 800; color: var(--text-primary); margin-top: 2px; }
+
+/* Recommendation section */
+.recommendation-section {
+  background: #2c2c2c;
+  border-radius: 10px;
+  border: 1px solid #3a3a3a;
+}
+.rec-title { font-size: 0.9rem; font-weight: 800; color: var(--gold); }
+.rec-body { font-size: 0.78rem; color: var(--text-muted); line-height: 1.6; }
+
+/* Membership cards */
+.membership-card {
+  background: var(--bg-dark);
+  border-radius: 8px;
+  border: 1px solid #3a3a3a;
+  cursor: pointer;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+.membership-card:hover { border-color: var(--gold); }
+.membership-header { user-select: none; }
+.membership-label { font-size: 0.8rem; color: var(--text-muted); letter-spacing: 0.5px; text-transform: uppercase; }
+.membership-label strong { color: var(--gold); font-weight: 800; }
+
+.toggle-icon { font-size: 0.9rem; color: var(--gold); transition: transform 0.3s ease; }
+
+.membership-desc { font-size: 0.78rem; color: var(--text-muted); line-height: 1.6; border-top: 1px solid #3a3a3a; }
+
+/* More link */
+.more-link-wrapper { background: rgba(200,169,81,0.12); border-radius: 6px; padding: 6px 10px; }
+.more-link { font-size: 0.72rem; color: #d4b96a; text-decoration: none; font-style: italic; }
+.more-link:hover { color: #fff; text-decoration: underline; }
